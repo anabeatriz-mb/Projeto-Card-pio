@@ -14,12 +14,13 @@ body{
     flex-direction: column;
     height:100%;
     background-color: #e4e4e4;
-    font-family:Arial, sans-serif; #fonte
+    font-family:Arial, sans-serif; 
+    
 }
 header{
     width: 100%;
     height:100px;
-    background-color: black;
+    background-color:#e3c7a8;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -39,14 +40,26 @@ header{
 }
 .logo img{
     height:80px;
-    margin-right: 20px;
+   
 
 }
+.logo_texto{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
 .logo h1{
-    font-family: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #e4e4e4;
+    font-family:20px;
+    font-family:Anton;
+    color:#40271e;
+    font-size: 35px;
 
+}
+.logo h2{
+    font-family:20px;
+    font-family:Anton;
+    color:#b14720;
+    font-size: 30px;
 }
 /*--------MENU------- */
 .menu{
@@ -58,8 +71,9 @@ header{
 
 .menu ul li a{
 padding: 10px 40px;
-color: #e4e4e4;
+color: #40271e;
 text-decoration: none;
+font-family: Anton;
 }
 .menu ul li a:hover{
     text-decoration: underline;
@@ -87,6 +101,20 @@ padding-top:110px;
     display: flex;
     justify-content: center;
 }
+.slogan{
+    width: 50%;
+    height: 60vh;
+    
+    justify-content: flex-end;
+    margin:70px 0px 0px 500px;
+}
+.slogan h1{
+    font-size: 100px;
+    color:#f2e9db;
+    font-family: Anton;
+    text-align: center;
+}
+
 /*-----RODAPÉ-----*/
 footer{
     width: 100%;
@@ -101,4 +129,48 @@ footer{
     width: 400px;
     height: 100%;
     border: 1px solid white;
+}
+/*------HAMBURGUER------*/
+.linha_secao1{
+background-color:#f2e9db;
+width:100%;
+height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    display: flex;
+    background-color: aquamarine;
+    width: 70%;
+    height: 70vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+    
+}
+/*------BEBIDAS------*/
+.linha_secao2{
+background-color:#f2e9db;
+width:100%;
+height:100vh;
+display: flex;
+justify-content: center;
+}
+/*------COMBOS------*/
+.linha_secao3{
+background-color:#f2e9db;
+width:100%;
+height:100vh;
+display: flex;
+justify-content: center;
+}
+/*------SOBREMESAS------*/
+.linha_secao4{
+background-color:#f2e9db;
+width:100%;
+height:100vh;
+display: flex;
+justify-content: center;
 }
